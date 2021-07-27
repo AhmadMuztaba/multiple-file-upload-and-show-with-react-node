@@ -1,0 +1,16 @@
+.try{
+    position: relative;
+    & img{
+        position: absolute;
+        top:30%;
+        left: 30%;
+        height: 20em;
+        width: 30em;
+        opacity: 0;
+    }
+}
+.back{
+    opacity: 1 !important;
+    z-index: 1;
+    transition: all .4s;
+}
